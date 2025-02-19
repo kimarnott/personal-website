@@ -1,123 +1,121 @@
 /* Hmm */
 :root {
-    --background: #F4F9F9;
-    --highlight: #F1D1D0;
-    --titles: #FBACCC;
-    --text: #F875AA;
-    --title-typeface: "Croissant One", serif;
-    --content-typeface: "Quicksand", sans-serif;
-    --curly-typeface: "Dancing Script", serif;
+  --background: #f4f9f9;
+  --highlight: #f1d1d0;
+  --titles: #fbaccc;
+  --text: #f875aa;
+  --title-typeface: "Croissant One", serif;
+  --content-typeface: "Quicksand", sans-serif;
+  --curly-typeface: "Dancing Script", serif;
 }
 
 html {
-    font-size: 24px;
+  font-size: 24px;
+  text-align: justify;
 }
 
 body {
-    color: var(--text);
-    font-family: var(--content-typeface);
-    background-color: var(--background);
+  color: var(--text);
+  font-family: var(--content-typeface);
+  background-color: var(--background);
 }
 
 h1 {
-    font-family: var(--curly-typeface);
-    font-size: 3rem;
-    font-weight: 200;
+  font-family: var(--curly-typeface);
+  font-size: 3rem;
+  font-weight: 200;
 }
 
 h2 {
-    font-family: var(--curly-typeface);
-    color: var(--titles);
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    text-align: left;
+  font-family: var(--curly-typeface);
+  color: var(--titles);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: left;
 }
 
 h3 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    font-family: var(--title-typeface);
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: var(--title-typeface);
 }
 
 h4 {
-    font-size: 1rem;
-    font-weight: bold;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
-#jumbo-pics{
-    display: flex;
-    justify-content: space-around;
+#jumbo-pics {
+  display: flex;
+  justify-content: space-around;
 }
 
-#jumbo-pics img{
-    height: 20vw;
-    max-height: 300px;
+#jumbo-pics img {
+  height: 20vw;
+  max-height: 300px;
 }
 
 #title {
-    background-color: var(--highlight);
+  background-color: var(--highlight);
 }
 
-#title > div{
-    margin-top: -3vw;
+#title > div {
+  margin-top: -3vw;
 }
 
-#title h2{
-    color: var(--background);
+#title h2 {
+  color: var(--background);
 }
 
 #title img {
-    border-radius: 50%;
-    border: 5px solid var(--background);
-    height: 300px;
+  border-radius: 50%;
+  border: 5px solid var(--background);
+  height: 300px;
 }
 
-footer {
-    background-color: var(--background);
-    color: var(--text);
-    display: flex;
-    justify-content: space-between;
-    margin: 0.5rem;
-    font-size: 0.9rem;
+footer div {
+  background-color: var(--background);
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem;
+  font-size: 0.9rem;
 }
 
 #achievements {
-    background-color: var(--highlight);
+  background-color: var(--highlight);
 }
 
 .featurette img {
-    border-radius: 2%;
+  border-radius: 2%;
 }
 
+@media (min-width: 768px) {
+  html {
+    font-size: 22px;
+  }
 
+  h1 {
+    font-size: 6rem;
+  }
 
-
-@media (min-width:992px) {
-    html {
-        font-size: 24px;
-    }
-
-    h1 {
-        font-size: 6rem;
-    }
-
-    h2 {
-        font-size: 3rem;
-    }
+  h2 {
+    font-size: 3rem;
+  }
 }
 
-@media (min-width:1200) {
-    html {
-        font-size: 20px;
-    }
-    h1 {
-        font-size: 10rem;
-    }
+@media (min-width: 992px) {
+  html {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 10rem;
+  }
 }
 
-@media (min-width:1400px) {
-    html {
-        font-size: 18px;
-    }
+@media (min-width: 1400px) {
+  html {
+    font-size: 18px;
+  }
 }
